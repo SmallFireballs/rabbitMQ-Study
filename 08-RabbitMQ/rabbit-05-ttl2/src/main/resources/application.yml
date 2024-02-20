@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: ttl-learn2
+  rabbitmq:
+    host: 192.168.126.131
+    port: 5672
+    username: admin
+    password: 123456
+    virtual-host: powernode
+
+my:
+  exchangeName: exchange.ttl.b
+  queueName: queue.ttl.b
